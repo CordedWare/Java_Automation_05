@@ -25,8 +25,6 @@ public class FizzBuzzTest {
         Assert.assertEquals(exceptecResult, actualResult);
     }
 
-
-    // start < end
     @Test
     public void testStartEqualsEnd_HappyPathTest() {
         // AAA

@@ -1,15 +1,15 @@
 public class OddEven {
 
     public String oddEven(int number) {
-        if ((number & 2) == 0) {
+        if ((number % 2) == 0) {
 
             return "Even";
         }
-        if ((number & 2) == 1) {
+        else if ((number % 2) == -1 ||(number % 2) == 1) {
 
             return "Odd";
         }
 
-        return oddEven(0);
+        return null;
     }
 }
