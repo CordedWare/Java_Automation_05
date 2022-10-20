@@ -2,6 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+// EXAMPLE FizzBuzz
 public class FizzBuzzTest {
 
     // 1. Positive testing
@@ -25,6 +26,11 @@ public class FizzBuzzTest {
         Assert.assertEquals(exceptecResult, actualResult);
     }
 
+    // 2. Positive testing
+    // if (start <= end)
+    // return array;
+
+    // start = end
     @Test
     public void testStartEqualsEnd_HappyPathTest() {
         // AAA
@@ -40,6 +46,9 @@ public class FizzBuzzTest {
         Assert.assertEquals(exceptecResult, actualResult);
     }
 
+    // 3. Positive testing
+    // if (start <= end)
+    // return array;
 
     // start < end
     @Ignore
@@ -58,7 +67,7 @@ public class FizzBuzzTest {
         Assert.assertEquals(exceptecResult, actualResult);
     }
 
-    // 2. Negative testing
+    // 4. Negative testing
     // if (start > end)
     // return new String[0];
 
