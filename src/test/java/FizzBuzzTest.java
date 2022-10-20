@@ -16,14 +16,14 @@ public class FizzBuzzTest {
         // Arrange
         int start = 1;
         int end = 20;
-        String[] exceptecResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
+        String[] exceptedResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
                 "11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(exceptecResult, actualResult);
+        Assert.assertEquals(exceptedResult, actualResult);
     }
 
     // 2. Positive testing

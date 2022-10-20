@@ -1,15 +1,20 @@
-import java.util.Arrays;
-// NA RAZBOR!!! какой тип переменной метода должен возвращаться?
+// NA RAZBOR!!! Доработать метод, чтобы было исключение деления на 0 и
+// чтобы -2147483648 можно было поделить
 public class OddIndices {
 
-    public String  oddIndices(int[] number) {
-        for(int i = 0; i <= number.length; i ++) {
-            if ((number[i] % 2) != 0) {
-                return String.valueOf(Arrays.toString(new int[]{number[i]}));
+    public int[] oddIndices(int[] arrayNumber) {
+        //if (arrayNumber.length > 1) {
+            int[] newArray = new int[arrayNumber.length / 2];
+            int x = 1;
+            for (int i = 0; i < newArray.length; i++) {
+                newArray[i] = arrayNumber[x];
+                x = x + 2;
             }
-        }
+            return newArray;
 
-        return String.valueOf(number);
+
+//        }
+//        return new int[0];
     }
 }
 //    Написать алгоритм OddIndices, который принимает массив целых чисел,
