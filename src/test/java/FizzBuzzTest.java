@@ -7,7 +7,7 @@ public class FizzBuzzTest {
 
     // 1. Positive testing
     // if (start <= end)
-    // return array;
+    // return stringArray;
 
     // start < end
     @Test
@@ -28,7 +28,7 @@ public class FizzBuzzTest {
 
     // 2. Positive testing
     // if (start <= end)
-    // return array;
+    // return stringArray;
 
     // start = end
     @Test
@@ -46,14 +46,14 @@ public class FizzBuzzTest {
         Assert.assertEquals(exceptecResult, actualResult);
     }
 
-    // 3. Positive testing
+    // 3. Negative testing
     // if (start <= end)
     // return array;
 
     // start < end
     @Ignore
     @Test
-    public void testStartLessThanEnd_StartEndAreNegative_HappyPathTest() {
+    public void testStartLessThanEnd_NegativeTest() {
         // AAA
         // Arrange
         int start = -20;

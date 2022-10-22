@@ -3,25 +3,25 @@ public class FizzBuzz {
     public String[] fizzBuzz(int start, int end) {
 
         if (start <= end) {
-            String[] array = new String[end - start + 1];
+            String[] stringArray = new String[end - start + 1];
 
             int number = start;
 
-            for(int i = 0; i < array.length && number <= end; i ++) {
+            for(int i = 0; i < stringArray.length && number <= end; i ++) {
                 if(number % 15 == 0) {
-                    array[i] = "FizzBuzz";
+                    stringArray[i] = "FizzBuzz";
                 } else if (number % 3 == 0) {
-                    array[i] = "Fizz";
+                    stringArray[i] = "Fizz";
                 } else if (number % 5 == 0 ) {
-                    array[i] = "Buzz";
+                    stringArray[i] = "Buzz";
                 } else {
-                    array[i] = String.valueOf(number);
+                    stringArray[i] = String.valueOf(number);
                 }
 
                 number ++;
             }
 
-            return array;
+            return stringArray;
         }
 
         return new String[0];

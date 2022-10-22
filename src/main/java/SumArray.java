@@ -1,8 +1,13 @@
 public class SumArray {
 
-//    public String[] sumArray(int number) {
-//
-//    }
+    public int sumArray(int[] sumArray) {
+
+        int sum = 0; // для присваивания и суммирования через цикл
+        for (int i = 0; i < sumArray.length; i ++) {
+            sum += sumArray[i]; // на каждый цикл суммируется число
+        }
+        return sum; // возвращается метод
+    }
 }
 
 //    Написать алгоритм SumArray, который возвращает сумму всех чисел

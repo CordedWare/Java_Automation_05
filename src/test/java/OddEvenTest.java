@@ -1,4 +1,5 @@
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class OddEvenTest {
@@ -143,7 +144,7 @@ public class OddEvenTest {
 
     // 8. Negative testing
     // if ((number & 2) == 0)
-    // return oddEven(0);
+    // return false;
 
-    // None
+    // None. Число либо "Even" либо "Odd".
 }

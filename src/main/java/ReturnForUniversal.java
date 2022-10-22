@@ -1,8 +1,8 @@
 public class ReturnForUniversal {
     // не работает, доработать на досуге
-    public int returnForUniversal(int start, int end, int step) {
+    public int[] returnForUniversal(int start, int end, int step) {
         if (step == 0) {
-            System.out.print("Error! Enter correct step number");
+            return new int[]{-1};
         } else {
 
             if (start < end && step > 0) {                     // 1
@@ -12,7 +12,7 @@ public class ReturnForUniversal {
                 }
 
                 for (int i = start1; i <= end; i += step) {
-                    return i;
+                    return new int[]{i};
                 }                                              // 1
 
             } else if (start > end && step > 0) {              // 2
@@ -22,7 +22,7 @@ public class ReturnForUniversal {
                 }
 
                 for (int i = start1; i >= end; i -= step) {
-                    return i;
+                    return new int[]{i};
                 }                                              // 2
 
             } else if (start < end && step < 0) {              // 3
@@ -32,7 +32,7 @@ public class ReturnForUniversal {
                 }
 
                 for (int i = start1; i <= end; i -= step) {
-                    return i;
+                    return new int[]{i};
                 }                                              // 3
 
             } else if (start > end && step < 0) {              // 4
@@ -42,10 +42,10 @@ public class ReturnForUniversal {
                 }
 
                 for (int i = start1; i >= end; i += step) {
-                    return i;
+                    return new int[]{i};
                 }                                              // 4
             }
         }
-        return start;
+        return new int[]{start};
     }
 }
