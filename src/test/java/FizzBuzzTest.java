@@ -16,18 +16,18 @@ public class FizzBuzzTest {
         // Arrange
         int start = 1;
         int end = 20;
-        String[] exceptedResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
+        String[] expectedResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
                 "11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 2. Positive testing
-    // if (start <= end)
+    // if (start == end)
     // return stringArray;
 
     // start = end
@@ -37,13 +37,13 @@ public class FizzBuzzTest {
         // Arrange
         int start = 1;
         int end = 1;
-        String[] exceptedResult = {"1"};
+        String[] expectedResult = {"1"};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 3. Negative testing
@@ -58,13 +58,13 @@ public class FizzBuzzTest {
         // Arrange
         int start = -20;
         int end = -1;
-        String[] exceptedResult = {"Buzz"};
+        String[] expectedResult = {"Buzz"};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 4. Negative testing
@@ -77,12 +77,12 @@ public class FizzBuzzTest {
         // Arrange
         int start = 20;
         int end = 1;
-        String[] exceptedResult = {};
+        String[] expectedResult = {};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 }
