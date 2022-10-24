@@ -20,7 +20,7 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(number);
 
         // Assert
-        Assert.assertEquals(exceptedResult,actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 
 
@@ -41,7 +41,7 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(number);
 
         // Assert
-        Assert.assertEquals(exceptedResult,actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 
 
@@ -62,6 +62,6 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(number);
 
         // Assert
-        Assert.assertEquals(exceptedResult,actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 }

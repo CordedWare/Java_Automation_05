@@ -23,7 +23,7 @@ public class FizzBuzzTest {
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(exceptedResult, actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 
     // 2. Positive testing
@@ -37,13 +37,13 @@ public class FizzBuzzTest {
         // Arrange
         int start = 1;
         int end = 1;
-        String[] exceptecResult = {"1"};
+        String[] exceptedResult = {"1"};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(exceptecResult, actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 
     // 3. Negative testing
@@ -58,13 +58,13 @@ public class FizzBuzzTest {
         // Arrange
         int start = -20;
         int end = -1;
-        String[] exceptecResult = {"Buzz"};
+        String[] exceptedResult = {"Buzz"};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(exceptecResult, actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 
     // 4. Negative testing
@@ -77,12 +77,12 @@ public class FizzBuzzTest {
         // Arrange
         int start = 20;
         int end = 1;
-        String[] exceptecResult = {};
+        String[] exceptedResult = {};
 
         // Act
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(exceptecResult, actualResult);
+        Assert.assertEquals(actualResult,exceptedResult);
     }
 }
