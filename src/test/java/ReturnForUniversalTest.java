@@ -5,7 +5,8 @@ public class ReturnForUniversalTest {
 
     // 1. if (start < end && step > 0)
 
-    // Data: 1, 7, 7
+    // Test Data: 1, 7, 7
+    // Expected Result: 1, 7, 7
     @Test
     public void testStartForUniversal_HappyPathTest1() {
         // AAA
@@ -13,12 +14,12 @@ public class ReturnForUniversalTest {
         int start = 1;
         int end = 7;
         int step = 7;
-        int[] exceptedResult = {1,7,7};
+        int[] expectedResult = {1,7,7};
 
         // Act
         int[] actualResult = new ReturnForUniversal().returnForUniversal(start,end,step);
 
         // Assert
-        Assert.assertEquals(exceptedResult,actualResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 }

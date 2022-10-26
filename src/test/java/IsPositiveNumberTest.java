@@ -7,19 +7,20 @@ public class IsPositiveNumberTest {
     // if (number >= 0)
     // return true;
 
-    // 555
+    // Test Data: 555
+    // Expected result: true
     @Test
     public void testStartBooleanReturnTrue_HappyPathTest1() {
         // AAA
         // Arrange
         int number = 555;
-        boolean exceptedResult = true;
+        boolean expectedResult = true;
 
         // Act
         boolean actualResult = new IsPositiveNumber().isPositiveNumber(number);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -27,19 +28,20 @@ public class IsPositiveNumberTest {
     // if (number >= 0)
     // return true;
 
-    // 0
+    // Test Data: 0
+    // Expected result: true
     @Test
     public void testStartBooleanReturnTrue_HappyPathTest2() {
         // AAA
         // Arrange
         int number = 0;
-        boolean exceptedResult = true;
+        boolean expectedResult = true;
 
         // Act
         boolean actualResult = new IsPositiveNumber().isPositiveNumber(number);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -47,19 +49,20 @@ public class IsPositiveNumberTest {
     // if (number < 0)
     // return false;
 
-    // -555
+    // Test Data: -555
+    // Expected result: false
     @Test
     public void testStartBooleanReturnFalse_HappyPathTest1() {
         // AAA
         // Arrange
         int number = -555;
-        boolean exceptedResult = false;
+        boolean expectedResult = false;
 
         // Act
         boolean actualResult = new IsPositiveNumber().isPositiveNumber(number);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 }

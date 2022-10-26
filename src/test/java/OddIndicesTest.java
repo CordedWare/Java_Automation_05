@@ -8,19 +8,20 @@ public class OddIndicesTest {
     // newArray[i] = arrayNumber[x]
     // return newArray
 
-    // number = {-45, 590, 234, 985, 12, 68}
+    // Test Data: {-45, 590, 234, 985, 12, 68}
+    // Expected result: {590, 985, 68}
     @Test
     public void testStartOddNumber_HappyPathTest1() {
         // AAA
         // Arrange
-        int[] number = {-45, 590, 234, 985, 12, 68};
-        int[] exceptedResult = {590, 985, 68};
+        int[] numbers = {-45, 590, 234, 985, 12, 68};
+        int[] expectedResult = {590, 985, 68};
 
         // Act
-        int[] actualResult = new OddIndices().oddIndices(number);
+        int[] actualResult = new OddIndices().oddIndices(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -29,19 +30,20 @@ public class OddIndicesTest {
     // newArray[i] = arrayNumber[x]
     // return newArray
 
-    // number = {-2147483648, -2, -1, 0, 1, 2, 2147483647}
+    // Test Data: {-2147483648, -2, -1, 0, 1, 2, 2147483647}
+    // Expected result: {-2, 2147483646}
     @Test
     public void testStartOddNumber_HappyPathTest2() {
         // AAA
         // Arrange
-        int[] number = {1, -2, 2147483647, 2147483646};
-        int[] exceptedResult = {-2, 2147483646};
+        int[] numbers = {1, -2, 2147483647, 2147483646};
+        int[] expectedResult = {-2, 2147483646};
 
         // Act
-        int[] actualResult = new OddIndices().oddIndices(number);
+        int[] actualResult = new OddIndices().oddIndices(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -50,18 +52,19 @@ public class OddIndicesTest {
     // newArray[i] = arrayNumber[x]
     // return newArray
 
-    // number = {0, 1, 2, 3, 4, 5}
+    // Test Data: {0, 1, 2, 3, 4, 5}
+    // Expected result: {1, 3, 5}
     @Test
     public void testStartOddNumber_HappyPathTest3() {
         // AAA
         // Arrange
-        int[] number = {0, 1, 2, 3, 4, 5};
-        int[] exceptedResult = {1, 3, 5};
+        int[] numbers = {0, 1, 2, 3, 4, 5};
+        int[] expectedResult = {1, 3, 5};
 
         // Act
-        int[] actualResult = new OddIndices().oddIndices(number);
+        int[] actualResult = new OddIndices().oddIndices(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 }

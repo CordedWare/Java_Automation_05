@@ -4,45 +4,47 @@ import org.testng.annotations.Test;
 
 public class SumArrayTest {
 
-        // 1. Positive testing
-        // for (int i = 0; i < sumArray.length; i ++) {
-        // sum += sumArray[i];
-        // return sum
-
-        // numbers = {0, 1, 2, 3, 4, 5}
-        @Test
-        public void testStartSumArray_HappyPathTest1() {
-            // AAA
-            // Arrange
-            int[] numbers = {0, 1, 2, 3, 4, 5};
-            int exceptedResult = 15;
-
-            // Act
-            int actualResult = new SumArray().sumArray(numbers);
-
-            // Assert
-            Assert.assertEquals(actualResult,exceptedResult);
-        }
-
-
     // 1. Positive testing
     // for (int i = 0; i < sumArray.length; i ++) {
     // sum += sumArray[i];
     // return sum
 
-    // numbers = {-7, -3}
+    // Test Data: {0, 1, 2, 3, 4, 5}
+    // Expected Result: 15
     @Test
-    public void testStartSumArray_HappyPathTest2() {
+    public void testStartSumArray_HappyPathTest1() {
         // AAA
         // Arrange
-        int[] numbers = {-7, -3};
-        int exceptedResult = -10;
+        int[] numbers = {0, 1, 2, 3, 4, 5};
+        int expectedResult = 15;
 
         // Act
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
+    }
+
+
+    // 2. Positive testing
+    // for (int i = 0; i < sumArray.length; i ++) {
+    // sum += sumArray[i];
+    // return sum
+
+    // Test Data: {-7, -3}
+    // Expected Result: -10
+    @Test
+    public void testStartSumArray_HappyPathTest2() {
+        // AAA
+        // Arrange
+        int[] numbers = {-7, -3};
+        int expectedResult = -10;
+
+        // Act
+        int actualResult = new SumArray().sumArray(numbers);
+
+        // Assert
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 3. Positive testing
@@ -50,19 +52,20 @@ public class SumArrayTest {
     // sum += sumArray[i];
     // return sum
 
-    // numbers = {-2, 5}
+    // Test Data: {-2, 5}
+    // Expected Result: 3
     @Test
     public void testStartSumArray_HappyPathTest3() {
         // AAA
         // Arrange
         int[] numbers = {-2, 5};
-        int exceptedResult = 3;
+        int expectedResult = 3;
 
         // Act
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 4. Positive testing
@@ -70,19 +73,20 @@ public class SumArrayTest {
     // sum += sumArray[i];
     // return sum
 
-    // numbers = {0, 0}
+    // Test Data: {0, 0}
+    // Expected Result: 0
     @Test
     public void testStartSumArray_HappyPathTest4() {
         // AAA
         // Arrange
         int[] numbers = {0, 0};
-        int exceptedResult = 0;
+        int expectedResult = 0;
 
         // Act
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -91,19 +95,20 @@ public class SumArrayTest {
     // sum += sumArray[i];
     // return sum
 
-    // numbers = {1,3}
+    // Test Data: {1,3}
+    // Expected Result: 13
     @Ignore
     @Test
     public void testStartSumArray_NegativeTest1() {
         // AAA
         // Arrange
         int[] numbers = {1,3};
-        int exceptedResult = 13;
+        int expectedResult = 13;
 
         // Act
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 }

@@ -6,6 +6,7 @@ public class SumArray {
         for (int i = 0; i < sumArray.length; i ++) {
             sum += sumArray[i]; // на каждый цикл суммируется число
         }
+
         return sum; // возвращается метод
     }
 }

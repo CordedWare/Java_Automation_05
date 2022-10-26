@@ -8,19 +8,20 @@ public class OddEvenTest {
     // if ((number & 2) == 0)
     // return "Even";
 
-    // Even = 4
+    // Test Data: 4
+    // Expected Result: Even
     @Test
     public void testStartEvenNumber_HappyPathTest1() {
         // AAA
         // Arrange
         int number = 4;
-        String exceptedResult = "Even";
+        String expectedResult = "Even";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -29,19 +30,20 @@ public class OddEvenTest {
     // if ((number & 2) == 1)
     // return "Odd";
 
-    // Odd = 3
+    // Test Data: 3
+    // Expected Result: Odd
     @Test
     public void testStartOddNumber_HappyPathTest1() {
         // AAA
         // Arrange
         int number = 3;
-        String exceptedResult = "Odd";
+        String expectedResult = "Odd";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -49,76 +51,80 @@ public class OddEvenTest {
     // if ((number & 2) == 1)
     // return "Odd";
 
-    // Odd = -345
+    // Test Data: -345
+    // Expected Result: Odd
     @Test
     public void testStartOddNumber_HappyPathTest2() {
         // AAA
         // Arrange
         int number = -345;
-        String exceptedResult = "Odd";
+        String expectedResult = "Odd";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 4. Positive testing
     // if ((number & 2) == 0)
     // return "Even";
 
-    // Even = 0
+    // Test Data: 0
+    // Expected Result: Even
     @Test
     public void testStartEvenNumber_HappyPathTest2() {
         // AAA
         // Arrange
         int number = 0;
-        String exceptedResult = "Even";
+        String expectedResult = "Even";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 5. Positive testing
     // if ((number & 2) == 0)
     // return "Even";
 
-    // Even = 222222
+    // Test Data: 222222
+    // Expected Result: Even
     @Test
     public void testStartEvenNumber_HappyPathTest3() {
         // AAA
         // Arrange
         int number = 222222;
-        String exceptedResult = "Even";
+        String expectedResult = "Even";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
     // 6. Positive testing
     // if ((number & 2) == 1)
     // return "Odd";
 
-    // Odd = 2147483647
+    // Test Data: 2147483647
+    // Expected Result: Odd
     @Test
     public void testStartOddNumber_HappyPathTest3() {
         // AAA
         // Arrange
         int number = 2147483647;
-        String exceptedResult = "Odd";
+        String expectedResult = "Odd";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
@@ -126,19 +132,20 @@ public class OddEvenTest {
     // if ((number & 2) == 1)
     // return "Even";
 
-    // Odd = -2147483648
+    // Test Data: -2147483648
+    // Expected Result: Odd
     @Test
     public void testStartEvenNumber_HappyPathTest4() {
         // AAA
         // Arrange
         int number = -2147483648;
-        String exceptedResult = "Even";
+        String expectedResult = "Even";
 
         // Act
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,exceptedResult);
+        Assert.assertEquals(actualResult,expectedResult);
     }
 
 
