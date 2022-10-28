@@ -1,5 +1,5 @@
 public class ReturnForUniversal {
-    // не работает, доработать на досуге
+
     public int[] returnForUniversal(int start, int end, int step) {
         if (step == 0) {
             return new int[]{-1};
