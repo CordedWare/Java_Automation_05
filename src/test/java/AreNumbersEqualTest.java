@@ -21,7 +21,7 @@ public class AreNumbersEqualTest {
         int actualResult = new AreNumbersEqual().areNumbersEqual(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -43,7 +43,7 @@ public class AreNumbersEqualTest {
         int actualResult = new AreNumbersEqual().areNumbersEqual(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 3. Positive testing
@@ -64,6 +64,6 @@ public class AreNumbersEqualTest {
         int actualResult = new AreNumbersEqual().areNumbersEqual(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }

@@ -20,7 +20,7 @@ public class IsPositiveNumberTest {
         boolean actualResult = new IsPositiveNumber().isPositiveNumber(number);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -41,7 +41,7 @@ public class IsPositiveNumberTest {
         boolean actualResult = new IsPositiveNumber().isPositiveNumber(number);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -62,7 +62,6 @@ public class IsPositiveNumberTest {
         boolean actualResult = new IsPositiveNumber().isPositiveNumber(number);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
-
 }

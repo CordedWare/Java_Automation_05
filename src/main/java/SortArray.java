@@ -4,7 +4,7 @@ public class SortArray {
 
         if (numbers.length > 0) {
 
-            for (int z = 0; ; ) {
+            while (true) {
 
                 int timespell = 0;
                 int count = 0;

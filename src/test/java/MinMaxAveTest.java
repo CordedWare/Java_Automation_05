@@ -62,7 +62,7 @@ public class MinMaxAveTest {
         int[] actualResult = new MinMaxAve().minMaxAve(array, x, y);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -83,6 +83,6 @@ public class MinMaxAveTest {
         int[] actualResult = new MinMaxAve().minMaxAve(array, x, y);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }

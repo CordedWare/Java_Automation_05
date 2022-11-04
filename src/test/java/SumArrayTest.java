@@ -22,7 +22,7 @@ public class SumArrayTest {
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -44,8 +44,9 @@ public class SumArrayTest {
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
+
 
     // 3. Positive testing
     // for (int i = 0; i < sumArray.length; i ++) {
@@ -65,7 +66,7 @@ public class SumArrayTest {
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 4. Positive testing
@@ -86,7 +87,7 @@ public class SumArrayTest {
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -109,6 +110,6 @@ public class SumArrayTest {
         int actualResult = new SumArray().sumArray(numbers);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }

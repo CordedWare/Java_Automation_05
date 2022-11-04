@@ -21,7 +21,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -43,7 +43,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -64,7 +64,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 4. Positive testing
@@ -84,7 +84,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 5. Positive testing
@@ -104,7 +104,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 6. Positive testing
@@ -124,7 +124,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -145,7 +145,7 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(number);
 
         //Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 

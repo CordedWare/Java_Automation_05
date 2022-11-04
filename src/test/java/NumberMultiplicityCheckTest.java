@@ -20,7 +20,7 @@ public class NumberMultiplicityCheckTest {
         String actualResult = new NumberMultiplicityCheck().numberMultiplicityCheck(numberN);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -41,7 +41,7 @@ public class NumberMultiplicityCheckTest {
         String actualResult = new NumberMultiplicityCheck().numberMultiplicityCheck(numberN);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -62,7 +62,7 @@ public class NumberMultiplicityCheckTest {
         String actualResult = new NumberMultiplicityCheck().numberMultiplicityCheck(numberN);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
 
@@ -82,7 +82,7 @@ public class NumberMultiplicityCheckTest {
         String actualResult = new NumberMultiplicityCheck().numberMultiplicityCheck(numberN);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }
 

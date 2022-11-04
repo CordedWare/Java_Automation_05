@@ -22,7 +22,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 2. Positive testing
@@ -43,7 +43,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 3. Positive testing
@@ -64,7 +64,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 4. Positive testing
@@ -85,7 +85,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 5. Positive testing
@@ -106,7 +106,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 6. Positive testing
@@ -127,7 +127,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 7. Positive testing
@@ -148,7 +148,7 @@ public class BiggerValuetTest {
         String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 8. Negative testing
@@ -170,6 +170,6 @@ public class BiggerValuetTest {
         //String actualResult = new BiggerValue().biggerValue(num1,num2);
 
         // Assert
-        //Assert.assertEquals(actualResult,expectedResult);
+        //Assert.assertEquals(actualResult, expectedResult);
     }
 }

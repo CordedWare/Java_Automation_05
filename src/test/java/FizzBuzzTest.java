@@ -23,7 +23,7 @@ public class FizzBuzzTest {
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 2. Positive testing
@@ -43,7 +43,7 @@ public class FizzBuzzTest {
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 3. Negative testing
@@ -64,7 +64,7 @@ public class FizzBuzzTest {
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 
     // 4. Negative testing
@@ -84,6 +84,6 @@ public class FizzBuzzTest {
         String[] actualResult = new FizzBuzz().fizzBuzz(start, end);
 
         // Assert
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }
